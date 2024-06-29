@@ -21,23 +21,23 @@ def main():
 
     num3 = int(input('enter your number: '))
     numbers.append(num3)
-    if num2 > maxval:
+    if num3 > maxval:
         maxval = num3
-    if num2 < minval:
+    if num3 < minval:
         minval = num3
 
     num4 = int(input('enter your number: '))
     numbers.append(num4)
-    if num2 > maxval:
+    if num4 > maxval:
         maxval = num4
-    if num2 < minval:
+    if num4 < minval:
         minval = num4
 
     num5 = int(input('enter your number: '))
     numbers.append(num5)
-    if num2 > maxval:
+    if num5 > maxval:
         maxval = num5
-    if num2 < minval:
+    if num5 < minval:
         minval = num5
 
 
